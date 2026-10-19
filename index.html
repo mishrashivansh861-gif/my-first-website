@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Professional Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            text-align: center;
+        }
+
+        header {
+            background: #123456;
+            color: white;
+            padding: 25px;
+        }
+
+        nav {
+            background: #222;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        .box {
+            background: white;
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 600px;
+            border-radius: 12px;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>My First Professional Website</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="box" id="home">
+        <h2>Namaste! 👋</h2>
+        <p>Yeh meri khud ki banayi hui website hai.</p>
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <div class="box" id="about">
+        <h2>About Me</h2>
+        <p>Main website banana seekh raha hoon.</p>
+    </div>
+
+    <div class="box" id="contact">
+        <h2>Contact</h2>
+        <p>Email: example@gmail.com</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Congratulations! Tumhari website ka button kaam kar raha hai!");
+        }
+    </script>
+
+</body>
+</html>
